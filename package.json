@@ -1,9 +1,9 @@
 {
   "name": "select-words",
   "main": "./lib/select-words",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
-  "description": "A short description of your package",
+  "description": "Adds occurrences of selected word as new selections",
   "repository": "https://github.com/ilkka/select-words",
   "license": "MIT",
   "engines": {
