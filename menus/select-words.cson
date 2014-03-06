@@ -1,7 +1,7 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
 'context-menu':
   '.overlayer':
-      'Enable select-words': 'select-words:toggle'
+      'Enable select-words': 'select-words:next'
 
 'menu': [
   {
@@ -9,7 +9,7 @@
     'submenu': [
       'label': 'select-words'
       'submenu': [
-        { 'label': 'Toggle', 'command': 'select-words:toggle' }
+        { 'label': 'Toggle', 'command': 'select-words:next' }
       ]
     ]
   }

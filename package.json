@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "private": true,
   "description": "A short description of your package",
-  "activationEvents": ["select-words:toggle"],
+  "activationEvents": ["select-words:next"],
   "repository": "https://github.com/atom/select-words",
   "license": "MIT",
   "engines": {

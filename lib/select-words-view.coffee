@@ -7,7 +7,7 @@ class SelectWordsView extends View
       @div "The SelectWords package is Alive! It's ALIVE!", class: "message"
 
   initialize: (serializeState) ->
-    atom.workspaceView.command "select-words:toggle", => @toggle()
+    atom.workspaceView.command "select-words:next", => @toggle()
 
   # Returns an object that can be retrieved when package is activated
   serialize: ->
