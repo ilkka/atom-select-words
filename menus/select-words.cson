@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable select-words': 'select-words:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'select-words'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'select-words:toggle' }
+      ]
+    ]
+  }
+]
