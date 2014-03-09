@@ -9,4 +9,4 @@
 # https://atom.io/docs/latest/advanced/keymaps
 '.workspace':
   'ctrl-alt-n': 'select-words:next'
-  #'ctrl-alt-a': 'select-words:all'
+  'ctrl-alt-a': 'select-words:all'

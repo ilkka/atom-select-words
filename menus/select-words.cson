@@ -2,7 +2,7 @@
 'context-menu':
   '.overlayer':
     'Select next occurrence': 'select-words:next'
-    #'Select all occurrences': 'select-words:all'
+    'Select all occurrences': 'select-words:all'
 
 'menu': [
   {
@@ -11,7 +11,7 @@
       'label': 'select-words'
       'submenu': [
         { 'label': 'Select next occurrence', 'command': 'select-words:next' }
-        # { 'label': 'Select all occurrences', 'command': 'select-words:all' }
+        { 'label': 'Select all occurrences', 'command': 'select-words:all' }
       ]
     ]
   }

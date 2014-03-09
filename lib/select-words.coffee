@@ -26,6 +26,6 @@ module.exports =
           editor.selectWord()
         else
           word = editor.getSelectedText()
-          regex = new RegExp("\\b#{word}\\b")
+          regex = new RegExp("\\b#{word}\\b", "g")
           editor.buffer.scan(regex, (obj) ->
             editor.addSelectionForBufferRange(obj.range))
